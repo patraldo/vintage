@@ -84,3 +84,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+/** CBP adds this from Google Cloud Storage plugin wp installation */
+/**putenv('GOOGLE_APPLICATION_CREDENTIALS=~/GCPKEYS/pinche-poutine-1493932361575-fe95403afc45.json');*/
+
+
